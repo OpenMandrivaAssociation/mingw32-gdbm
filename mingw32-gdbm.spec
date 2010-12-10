@@ -6,7 +6,7 @@
 
 Name:           mingw32-gdbm
 Version:        1.8.0
-Release:        %mkrel 2
+Release:        %mkrel 3
 Summary:        MinGW port of GNU database routines
 
 License:        GPLv2+
