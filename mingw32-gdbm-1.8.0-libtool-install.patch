@@ -1,0 +1,11 @@
+--- gdbm-1.8.0/Makefile.in.libtool-install	2009-01-17 12:16:36.000000000 +0000
++++ gdbm-1.8.0/Makefile.in	2009-01-17 12:19:11.000000000 +0000
+@@ -117,7 +117,7 @@
+ 
+ install: libgdbm.la gdbm.h gdbm.info
+ 	$(srcdir)/mkinstalldirs $(libdir) $(includedir) $(man3dir) $(infodir)
+-	$(LIBTOOL) install -c libgdbm.la $(libdir)/libgdbm.la
++	$(LIBTOOL) --mode=install install libgdbm.la $(libdir)/libgdbm.la
+ 	$(INSTALL_DATA) gdbm.h $(includedir)/gdbm.h
+ 	$(INSTALL_DATA) $(srcdir)/gdbm.3 $(man3dir)/gdbm.3
+ 	$(INSTALL_DATA) $(srcdir)/gdbm.info $(infodir)/gdbm.info
