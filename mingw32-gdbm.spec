@@ -11,7 +11,7 @@ Summary:        MinGW port of GNU database routines
 
 License:        GPLv2+
 Group:          Development/Other
-URL:            http://www.gnu.org/software/gdbm/
+URL:            https://www.gnu.org/software/gdbm/
 Source0:        ftp://ftp.gnu.org/gnu/gdbm/gdbm-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
